@@ -264,7 +264,7 @@ export default function ProfilePage() {
                       />
                     </div>
                     <div>
-                      <label className="font-semibold">Primary Doctor</label>
+                      <label className="font-semibold">Family Doctor</label>
                       <input
                         type="text"
                         name="familyDoctor"
