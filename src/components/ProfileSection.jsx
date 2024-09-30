@@ -21,7 +21,7 @@ export default function ProfilePage() {
     allergies: "Peanuts, Penicillin",
     chronicConditions: "Hypertension",
     emergencyContact: "Jane Smith (Mother) - (123) 456-7890",
-    primaryDoctor: "Dr. Sarah Johnson",
+    familyDoctor: "Dr. Sarah Johnson",
     hospitalPreference: "Stanford Medical Center",
   });
 
@@ -267,8 +267,8 @@ export default function ProfilePage() {
                       <label className="font-semibold">Primary Doctor</label>
                       <input
                         type="text"
-                        name="primaryDoctor"
-                        value={profile.primaryDoctor}
+                        name="familyDoctor"
+                        value={profile.familyDoctor}
                         onChange={handleHealthDataChange}
                         className="mt-1 p-2 border rounded w-full"
                         required
@@ -312,7 +312,7 @@ export default function ProfilePage() {
                     </div>
                     <div>
                       <h4 className="font-semibold">Primary Doctor</h4>
-                      <p className="text-gray-600">{profile.primaryDoctor}</p>
+                      <p className="text-gray-600">{profile.familyDoctor}</p>
                     </div>
                     <div>
                       <h4 className="font-semibold">Hospital Preference</h4>
