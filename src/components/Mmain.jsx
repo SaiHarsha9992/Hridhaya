@@ -59,18 +59,15 @@ export default function Main() {
           </div>
 
           <div className="mx-auto max-w-2xl py-24 lg:py-48 text-center sm:py-24">
-            <video
-              src="/src/assets/heartbeat.mp4"
-              autoPlay
-              muted
-              loop
-              className="mx-auto inset-0 w-full h-full object-cover"
+           <iframe
+              src="https://lottie.host/embed/55aaab7c-35b1-4ca5-81c4-81ecce73ab39/emgd8S2e3V.json"
+              className="mx-auto inset-0 w-full h-full object-cover p-5"
               style={{
                 objectFit: "cover", // Ensures the video covers the div without stretching
-                width: "40%", // Makes the video responsive
-                height: "40%",
+                width: "100%", // Makes the video responsive
+                height: "100%",
               }}
-            ></video>
+            ></iframe>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Hridhaya
             </h1>
