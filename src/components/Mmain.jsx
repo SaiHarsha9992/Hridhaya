@@ -39,7 +39,7 @@ export default function Main() {
   return (
     <>
       
-    <h1>This website is temporarily closed because of unpaid dues..</h1>
+    <h1 className="text-black text-3xl">This website is temporarily closed because of unpaid dues..</h1>
     </>
   );
 }
